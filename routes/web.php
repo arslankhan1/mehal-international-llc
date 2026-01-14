@@ -1,36 +1,42 @@
 <?php
 
+use App\Http\Controllers\ContactController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PageController;
 use App\Http\Controllers\NewsletterController;
-use App\Http\Controllers\ContactController;
-
 /*
 |--------------------------------------------------------------------------
-| Web Routes - Mehal International LLC
+| Web Routes
 |--------------------------------------------------------------------------
+|
+| Here is where you can register web routes for your application. These
+| routes are loaded by the RouteServiceProvider and all of them will
+| be assigned to the "web" middleware group. Make something great!
+|
 */
 
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 // Home page
 Route::get('/', [PageController::class, 'index'])->name('home');
 
 // Static pages
 Route::get('/sales-channels', [PageController::class, 'salesChannels'])->name('sales.channels');
 Route::get('/brands', [PageController::class, 'brands'])->name('brands');
-Route::get('/contact', [PageController::class, 'contact'])->name('contact');
+// Contact Routes
+Route::get('/contact', [ContactController::class, 'index'])->name('contact');
+Route::post('/contact', [ContactController::class, 'submit'])->name('contact.submit');
 
-// Newsletter subscription
+// Newsletter Route (if not already added)
 Route::post('/newsletter/subscribe', [NewsletterController::class, 'subscribe'])->name('newsletter.subscribe');
 
-// Contact form submission
-// Route::post('/contact/submit', [ContactController::class, 'submit'])->name('contact.submit');
 
-// Cart page
+// Auth routes (optional)
+Route::get('/login', function () {
+    return view('auth.login');
+})->name('login');
+
 Route::get('/cart', function () {
     return view('cart');
 })->name('cart');
-
-// Search
-Route::get('/search', function () {
-    return view('search');
-})->name('search');

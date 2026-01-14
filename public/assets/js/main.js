@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const announcements = [
         `Questions? Contact us at <a href="mailto:customerservice@mehalintl.com">customerservice@mehalintl.com</a> <svg viewBox="0 0 14 10" fill="none" aria-hidden="true" style="width:13px; display:inline-block; margin-left:3px;" focusable="false" class="icon icon-arrow" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M8.537.808a.5.5 0 01.817-.162l4 4a.5.5 0 010 .708l-4 4a.5.5 0 11-.708-.708L11.793 5.5H1a.5.5 0 010-1h10.793L8.646 1.354a.5.5 0 01-.109-.546z" fill="currentColor"></path></svg>`,
         `tapeandtoner.com - Coming Soon!`,
-        `Free shipping on orders over $50! <svg viewBox="0 0 14 10" fill="none" aria-hidden="true" style="width:13px; display:inline-block; margin-left:3px;" focusable="false" class="icon icon-arrow" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M8.537.808a.5.5 0 01.817-.162l4 4a.5.5 0 010 .708l-4 4a.5.5 0 11-.708-.708L11.793 5.5H1a.5.5 0 010-1h10.793L8.646 1.354a.5.5 0 01-.109-.546z" fill="currentColor"></path></svg>`,
+        // `Free shipping on orders over $50! <svg viewBox="0 0 14 10" fill="none" aria-hidden="true" style="width:13px; display:inline-block; margin-left:3px;" focusable="false" class="icon icon-arrow" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M8.537.808a.5.5 0 01.817-.162l4 4a.5.5 0 010 .708l-4 4a.5.5 0 11-.708-.708L11.793 5.5H1a.5.5 0 010-1h10.793L8.646 1.354a.5.5 0 01-.109-.546z" fill="currentColor"></path></svg>`,
     ];
 
     let currentSlide = 0;

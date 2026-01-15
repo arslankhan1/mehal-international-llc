@@ -64,7 +64,7 @@
                 <div class="col-lg-4">
                     <div class="info-card">
                         <h3 class="info-card-title text-dark">Email Addresses</h3>
-                        <ul class="info-list">
+                        <ul class="info-list ms-5">
                             <li>
                                 <span class="bullet me-3">◦</span>
                                 Questions/Customer Service:

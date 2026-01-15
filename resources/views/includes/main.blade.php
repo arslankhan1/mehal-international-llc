@@ -15,6 +15,8 @@
         rel="stylesheet">
 
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
+    @stack('styles')
+
 </head>
 
 <body>
@@ -28,6 +30,9 @@
     <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="{{ asset('assets/js/main.js') }}"></script>
+
+    <!-- Page Specific JS -->
+    @stack('scripts')
 </body>
 
 </html>

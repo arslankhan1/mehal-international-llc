@@ -91,11 +91,28 @@ class ProductController extends Controller
             'status' => 'required|in:active,inactive,sold_out',
             'is_featured' => 'boolean',
             'sort_order' => 'nullable|integer',
+            'images.*' => 'nullable|image|mimes:jpeg,png,jpg,gif,webp|max:2048',
         ]);
 
         $validated['slug'] = Str::slug($validated['name']);
 
         $product->update($validated);
+
+        // Handle multiple images upload during update
+        if ($request->hasFile('images')) {
+            $lastOrder = $product->images()->max('sort_order') ?? -1;
+
+            foreach ($request->file('images') as $index => $image) {
+                $path = $image->store('products', 'public');
+
+                ProductImage::create([
+                    'product_id' => $product->id,
+                    'image_path' => $path,
+                    'image_type' => $product->images()->count() === 0 && $index === 0 ? 'main' : 'gallery',
+                    'sort_order' => $lastOrder + $index + 1,
+                ]);
+            }
+        }
 
         return redirect()->route('admin.products.index')
             ->with('success', 'Product updated successfully!');

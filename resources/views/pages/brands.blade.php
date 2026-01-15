@@ -1,4 +1,4 @@
-@extends('includes.main')
+{{-- @extends('includes.main')
 @section('content')
     <!-- Page Title Section -->
     <section class="page-title-section">
@@ -396,4 +396,76 @@
             </div>
         </div>
     </section>
+@endsection --}}
+
+@extends('includes.main')
+@section('content')
+    <!-- Page Title Section -->
+    <section class="page-title-section">
+        <div class="container">
+            <h1 class="page-title">Brands We Carry</h1>
+        </div>
+    </section>
+
+    <!-- Collections Label -->
+    <section class="collections-label-section">
+        <div class="container">
+            <h2 class="collections-label">Collections</h2>
+        </div>
+    </section>
+
+    <!-- Brands Grid Section -->
+    <section class="brands-grid-section mb-5">
+        <div class="container">
+            <div class="row g-3">
+                @forelse($brands as $brand)
+                    <div class="col-lg-4 col-md-6">
+                        <a href="{{ route('brand.products', $brand->slug) }}" class="brand-box-link">
+                            <div class="brand-box">
+                                <div class="brand-logo-wrapper">
+                                    @if ($brand->logo)
+                                        <img src="{{ asset('storage/' . $brand->logo) }}" alt="{{ $brand->name }}"
+                                            class="brand-logo">
+                                    @else
+                                        <div class="brand-logo-placeholder">
+                                            {{ strtoupper(substr($brand->name, 0, 2)) }}
+                                        </div>
+                                    @endif
+                                </div>
+                                <p class="brand-name">
+                                    {{ strtoupper($brand->name) }}
+                                    <span class="arrow">→</span>
+                                </p>
+                                {{-- @if ($brand->products_count > 0)
+                                    <small class="text-muted">{{ $brand->products_count }} products</small>
+                                @endif --}}
+                            </div>
+                        </a>
+                    </div>
+                @empty
+                    <div class="col-12 text-center py-5">
+                        <i class="fas fa-tags fa-4x text-muted mb-3"></i>
+                        <p class="text-muted">No brands available at the moment.</p>
+                    </div>
+                @endforelse
+            </div>
+        </div>
+    </section>
 @endsection
+
+@push('styles')
+    <style>
+        .brand-logo-placeholder {
+            width: 100%;
+            height: 150px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #f8f9fa;
+            color: #666;
+            font-size: 2rem;
+            font-weight: bold;
+            border-radius: 8px;
+        }
+    </style>
+@endpush

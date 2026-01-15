@@ -48,7 +48,7 @@ body {
    ============================================ */
 .announcement-slider {
     background-color: var(--announcement-bg);
-    padding: 0.35rem 0;
+    /* padding: 0.35rem 0; */
     position: relative;
 }
 
@@ -59,12 +59,12 @@ body {
     gap: 9rem;
     max-width: 1400px;
     margin: 0 auto;
-    padding: 0 2rem;
+    padding: 0 1.5rem;
 }
 
 .announcement-text {
     color: var(--text-light);
-    font-size: 1.3rem;
+    font-size: 1.4rem;
 
     letter-spacing: .19rem;
     margin: 0;
@@ -80,7 +80,7 @@ body {
     background: none;
     border: none;
     color: var(--text-light);
-    font-size: 2rem;
+    font-size: 2.5rem;
     cursor: pointer;
     padding: 0 1rem;
     opacity: 0.7;
@@ -142,7 +142,7 @@ body {
    ============================================ */
 .main-nav {
     background-color: var(--body-bg);
-    padding-bottom: 4.5rem;
+    padding-bottom: 2.5rem;
 }
 
 .nav-menu {
@@ -157,7 +157,7 @@ body {
 .nav-link {
     color: var(--text-dark);
     text-decoration: none;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     font-weight: 400;
     transition: opacity 0.2s;
     position: relative;
@@ -254,7 +254,8 @@ body {
 .hero-title {
     font-size: 3.6rem;
     font-weight: 400;
-    color: rgba(255, 255, 255, 0.7);
+    /* color: rgba(255, 255, 255, 0.7); */
+    color: white;
     margin-bottom: 2rem;
     letter-spacing: 0.05em;
 }
@@ -369,7 +370,7 @@ body {
     display: flex;
     max-width: 45rem;
     margin: 0 auto;
-    border: 1px solid rgba(255, 255, 255, 0.3);
+    border: 1px solid rgb(255 255 255 / 70%);
     border-radius: 10px;
 }
 
@@ -399,11 +400,11 @@ body {
 }
 
 .newsletter-input-group button {
-    padding: 1.2rem 2rem;
+    padding: 1rem 2rem;
     border: none;
     background: transparent;
     color: var(--text-light);
-    font-size: 2rem;
+    font-size: 2.5rem;
     cursor: pointer;
     transition: opacity 0.2s;
 }
@@ -624,7 +625,7 @@ body {
 /* Brand Box */
 .brand-box {
     background-color: #efecec;
-    border: 1px solid var(--border-color);
+    border: 1px solid #cacaca;
     overflow: hidden;
     transition: all 0.3s ease;
     cursor: pointer;
@@ -813,7 +814,7 @@ body {
     letter-spacing: 0.05em;
     border-top: 1px solid var(--border-color);
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;
 }
 
@@ -822,11 +823,11 @@ body {
     border-top-color: rgba(255, 255, 255, 0.2);
 }
 
-.brand-name .arrow {
+/* .brand-name .arrow {
     font-size: 1.4rem;
     margin-left: auto;
     padding-left: 1rem;
-}
+} */
 
 /* Responsive Design */
 @media (max-width: 991px) {
@@ -983,7 +984,7 @@ body {
 
 .contact-submit-btn {
     font-family: 'Assistant', sans-serif;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 500;
     padding: 1rem 3rem;
     background-color: var(--text-dark);
@@ -1158,7 +1159,7 @@ body {
 /*=====Sales Channels: match mehalintl spacing/height=====*/
 .sales-channels-section {
     background-color: var(--body-bg);
-    padding: 4.5rem 0 6.5rem;
+    /* padding: 4.5rem 0 6.5rem; */
 }
 
 /* Shopify page feels slightly narrower than full container */
@@ -1257,7 +1258,7 @@ body {
 
 .channel-split-desc {
     font-size: 1.6rem;
-    letter-spacing: 0.17rem;
+    letter-spacing: 0.1rem;
     line-height: 1.75;
     color: rgb(94 94 94);
     margin: 0;

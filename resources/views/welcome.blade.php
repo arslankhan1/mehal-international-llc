@@ -24,7 +24,7 @@
                 </div>
 
                 <div class="channel-split-content">
-                    <h2 class="channel-split-title">Effective Conversion-Oriented Advertising</h2>
+                    <h2 class="channel-split-title">Effective <br> Conversion-Oriented Advertising</h2>
                     <p class="channel-split-desc">We allocate our own marketing budget to create tailored advertising
                         campaigns for your brand on Amazon, elevating your sales and establishing your products as market
                         leaders, outshining your competitors.
@@ -60,7 +60,7 @@
 
                 <div class="channel-split-content">
                     {{-- <div class="channel-kicker">ONLINE</div> --}}
-                    <h2 class="channel-split-title">Mastering Amazon for You:</h2>
+                    <h2 class="channel-split-title">Mastering Amazon <br> for You:</h2>
                     <p class="channel-split-desc">We grasp the intricacies of selling on Amazon, saving you the hassle.
                         Allow us to excel
                         at what we do best - boosting your Amazon sales - while you concentrate on your

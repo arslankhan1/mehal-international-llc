@@ -1,7 +1,7 @@
 @extends('includes.main')
 @section('content')
     <!-- Hero Section -->
-    <section class="hero-section">
+    {{-- <section class="hero-section">
         <div class="container">
             <div class="hero-content">
                 <h1 class="hero-title">Mehal International LLC.</h1>
@@ -10,7 +10,7 @@
                     experiences to their customers.</p>
             </div>
         </div>
-    </section>
+    </section> --}}
     <!-- Page Title Section -->
     <section class="page-title-section">
         <div class="container mt-5">

@@ -23,8 +23,7 @@
                     <a href="#" class="brand-box-link">
                         <div class="brand-box">
                             <div class="brand-logo-wrapper">
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/2/24/LEGO_logo.svg" alt="LEGO"
-                                    class="brand-logo lego-logo">
+                                <img src="{{ asset('assets/images/31.jpg') }}" alt="LEGO" class="brand-logo lego-logo">
                             </div>
                             <p class="brand-name">LEGO <span class="arrow">→</span></p>
                         </div>
@@ -34,9 +33,7 @@
                     <a href="#" class="brand-box-link">
                         <div class="brand-box">
                             <div class="brand-logo-wrapper">
-                                <div class="fisher-price-logo">
-                                    <span class="fp-text red-bg">Fisher-Price</span>
-                                </div>
+                                <img src="{{ asset('assets/images/32.jpg') }}" alt="LEGO" class="brand-logo lego-logo">
                             </div>
                             <p class="brand-name">FISHER-PRICE <span class="arrow">→</span></p>
                         </div>
@@ -46,9 +43,9 @@
                     <a href="#" class="brand-box-link">
                         <div class="brand-box">
                             <div class="brand-logo-wrapper">
-                                <span class="brand-text-logo">REFRIGERATOR</span>
+                                <img src="{{ asset('assets/images/33.jpg') }}" alt="LEGO" class="brand-logo lego-logo">
                             </div>
-                            <p class="brand-name">Refriger <span class="arrow">→</span></p>
+                            <p class="brand-name">Netgear <span class="arrow">→</span></p>
                         </div>
                     </a>
                 </div>
@@ -58,9 +55,9 @@
                     <a href="#" class="brand-box-link">
                         <div class="brand-box">
                             <div class="brand-logo-wrapper">
-                                <span class="brand-text-logo jovi-orange">JOVI</span>
+                                <img src="{{ asset('assets/images/30.jpg') }}" alt="LEGO" class="brand-logo lego-logo">
                             </div>
-                            <p class="brand-name">JOVI/A <span class="arrow">→</span></p>
+                            <p class="brand-name">Anova <span class="arrow">→</span></p>
                         </div>
                     </a>
                 </div>
@@ -68,10 +65,9 @@
                     <a href="#" class="brand-box-link">
                         <div class="brand-box">
                             <div class="brand-logo-wrapper">
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/8/84/Carrier_logo.svg"
-                                    alt="Carrier" class="brand-logo">
+                                <img src="{{ asset('assets/images/29.jpg') }}" alt="LEGO" class="brand-logo lego-logo">
                             </div>
-                            <p class="brand-name">CARRIER HUMIDIFIER <span class="arrow">→</span></p>
+                            <p class="brand-name">Arris Surfboard <span class="arrow">→</span></p>
                         </div>
                     </a>
                 </div>
@@ -79,8 +75,7 @@
                     <a href="#" class="brand-box-link">
                         <div class="brand-box">
                             <div class="brand-logo-wrapper">
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/2/20/Adidas_Logo.svg"
-                                    alt="Adidas" class="brand-logo adidas-logo">
+                                <img src="{{ asset('assets/images/1.jpg') }}" alt="LEGO" class="brand-logo lego-logo">
                             </div>
                             <p class="brand-name">ADIDAS <span class="arrow">→</span></p>
                         </div>
@@ -92,8 +87,7 @@
                     <a href="#" class="brand-box-link">
                         <div class="brand-box">
                             <div class="brand-logo-wrapper">
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Columbia_Sportswear_text_logo.svg"
-                                    alt="Columbia" class="brand-logo columbia-logo">
+                                <img src="{{ asset('assets/images/28.jpg') }}" alt="LEGO" class="brand-logo lego-logo">
                             </div>
                             <p class="brand-name">COLUMBIA <span class="arrow">→</span></p>
                         </div>
@@ -103,9 +97,9 @@
                     <a href="#" class="brand-box-link">
                         <div class="brand-box">
                             <div class="brand-logo-wrapper">
-                                <span class="brand-text-logo kiss-pink">KISS.</span>
+                                <img src="{{ asset('assets/images/27.jpg') }}" alt="LEGO" class="brand-logo lego-logo">
                             </div>
-                            <p class="brand-name">BEAUTY PRODUCTS <span class="arrow">→</span></p>
+                            <p class="brand-name">Aussie Headstrong <span class="arrow">→</span></p>
                         </div>
                     </a>
                 </div>
@@ -113,8 +107,7 @@
                     <a href="#" class="brand-box-link">
                         <div class="brand-box">
                             <div class="brand-logo-wrapper">
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/c/c4/Champion_logo.svg"
-                                    alt="Champion" class="brand-logo champion-logo">
+                                <img src="{{ asset('assets/images/26.jpg') }}" alt="LEGO" class="brand-logo lego-logo">
                             </div>
                             <p class="brand-name">CHAMPION <span class="arrow">→</span></p>
                         </div>
@@ -126,8 +119,8 @@
                     <a href="#" class="brand-box-link">
                         <div class="brand-box">
                             <div class="brand-logo-wrapper">
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Callaway_Golf_Company_logo.svg"
-                                    alt="Callaway" class="brand-logo callaway-logo">
+                                <img src="{{ asset('assets/images/25.jpg') }}" alt="LEGO"
+                                    class="brand-logo lego-logo">
                             </div>
                             <p class="brand-name">CALLAWAY <span class="arrow">→</span></p>
                         </div>
@@ -137,19 +130,21 @@
                     <a href="#" class="brand-box-link">
                         <div class="brand-box">
                             <div class="brand-logo-wrapper">
-                                <span class="brand-text-logo">CROCKPOT<br><small>ORIGINAL SLOW</small></span>
+                                <img src="{{ asset('assets/images/24.jpg') }}" alt="LEGO"
+                                    class="brand-logo lego-logo">
                             </div>
-                            <p class="brand-name">CROCK-POT ORIGINAL SLOW <span class="arrow">→</span></p>
+                            <p class="brand-name">CROCKPOT <span class="arrow">→</span></p>
                         </div>
                     </a>
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <a href="#" class="brand-box-link">
                         <div class="brand-box">
-                            <div class="brand-logo-wrapper ashe-red">
-                                <span class="brand-text-logo white-text">ASHE</span>
+                            <div class="brand-logo-wrapper">
+                                <img src="{{ asset('assets/images/23.jpg') }}" alt="LEGO"
+                                    class="brand-logo lego-logo">
                             </div>
-                            <p class="brand-name">ASHE <span class="arrow">→</span></p>
+                            <p class="brand-name">DASH <span class="arrow">→</span></p>
                         </div>
                     </a>
                 </div>
@@ -159,8 +154,8 @@
                     <a href="#" class="brand-box-link">
                         <div class="brand-box">
                             <div class="brand-logo-wrapper">
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/Degree_Logo.svg"
-                                    alt="Degree" class="brand-logo degree-logo">
+                                <img src="{{ asset('assets/images/22.jpg') }}" alt="LEGO"
+                                    class="brand-logo lego-logo">
                             </div>
                             <p class="brand-name">DEGREE <span class="arrow">→</span></p>
                         </div>
@@ -170,8 +165,8 @@
                     <a href="#" class="brand-box-link">
                         <div class="brand-box">
                             <div class="brand-logo-wrapper">
-                                <img src="https://upload.wikimedia.org/wikipedia/en/c/cb/Disney_Channel_logo.svg"
-                                    alt="Disney" class="brand-logo disney-logo">
+                                <img src="{{ asset('assets/images/21.jpg') }}" alt="LEGO"
+                                    class="brand-logo lego-logo">
                             </div>
                             <p class="brand-name">DISNEY <span class="arrow">→</span></p>
                         </div>
@@ -180,8 +175,9 @@
                 <div class="col-lg-4 col-md-6">
                     <a href="#" class="brand-box-link">
                         <div class="brand-box">
-                            <div class="brand-logo-wrapper folgers-red">
-                                <span class="brand-text-logo white-text folgers-script">Folgers</span>
+                            <div class="brand-logo-wrapper">
+                                <img src="{{ asset('assets/images/20.jpg') }}" alt="LEGO"
+                                    class="brand-logo lego-logo">
                             </div>
                             <p class="brand-name">FOLGERS <span class="arrow">→</span></p>
                         </div>
@@ -193,7 +189,8 @@
                     <a href="#" class="brand-box-link">
                         <div class="brand-box">
                             <div class="brand-logo-wrapper">
-                                <span class="brand-text-logo">INSIGNIA</span>
+                                <img src="{{ asset('assets/images/19.jpg') }}" alt="LEGO"
+                                    class="brand-logo lego-logo">
                             </div>
                             <p class="brand-name">INSIGNIA <span class="arrow">→</span></p>
                         </div>
@@ -203,7 +200,8 @@
                     <a href="#" class="brand-box-link">
                         <div class="brand-box">
                             <div class="brand-logo-wrapper">
-                                <span class="brand-text-logo">Microsoft</span>
+                                <img src="{{ asset('assets/images/18.jpg') }}" alt="LEGO"
+                                    class="brand-logo lego-logo">
                             </div>
                             <p class="brand-name">MICROSOFT <span class="arrow">→</span></p>
                         </div>
@@ -212,8 +210,9 @@
                 <div class="col-lg-4 col-md-6">
                     <a href="#" class="brand-box-link">
                         <div class="brand-box">
-                            <div class="brand-logo-wrapper mega-orange">
-                                <span class="brand-text-logo white-text">MEGA<br>CONSTRUX</span>
+                            <div class="brand-logo-wrapper">
+                                <img src="{{ asset('assets/images/17.jpg') }}" alt="LEGO"
+                                    class="brand-logo lego-logo">
                             </div>
                             <p class="brand-name">MEGA CONSTRUX <span class="arrow">→</span></p>
                         </div>
@@ -225,8 +224,8 @@
                     <a href="#" class="brand-box-link">
                         <div class="brand-box">
                             <div class="brand-logo-wrapper">
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/7/7f/Nature%27s_Bounty_logo.svg"
-                                    alt="Nature's Bounty" class="brand-logo">
+                                <img src="{{ asset('assets/images/16.jpg') }}" alt="LEGO"
+                                    class="brand-logo lego-logo">
                             </div>
                             <p class="brand-name">NATURE'S BOUNTY <span class="arrow">→</span></p>
                         </div>
@@ -236,7 +235,8 @@
                     <a href="#" class="brand-box-link">
                         <div class="brand-box">
                             <div class="brand-logo-wrapper">
-                                <span class="brand-text-logo">Peet's<br>COFFEE</span>
+                                <img src="{{ asset('assets/images/15.jpg') }}" alt="LEGO"
+                                    class="brand-logo lego-logo">
                             </div>
                             <p class="brand-name">PEET'S COFFEE <span class="arrow">→</span></p>
                         </div>
@@ -246,8 +246,8 @@
                     <a href="#" class="brand-box-link">
                         <div class="brand-box">
                             <div class="brand-logo-wrapper">
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/e/ea/New_Balance_logo.svg"
-                                    alt="New Balance" class="brand-logo nb-logo">
+                                <img src="{{ asset('assets/images/14.jpg') }}" alt="LEGO"
+                                    class="brand-logo lego-logo">
                             </div>
                             <p class="brand-name">NEW BALANCE <span class="arrow">→</span></p>
                         </div>
@@ -259,7 +259,8 @@
                     <a href="#" class="brand-box-link">
                         <div class="brand-box">
                             <div class="brand-logo-wrapper">
-                                <span class="brand-text-logo">Neutrogena</span>
+                                <img src="{{ asset('assets/images/13.jpg') }}" alt="LEGO"
+                                    class="brand-logo lego-logo">
                             </div>
                             <p class="brand-name">NEUTROGENA <span class="arrow">→</span></p>
                         </div>
@@ -269,9 +270,10 @@
                     <a href="#" class="brand-box-link">
                         <div class="brand-box">
                             <div class="brand-logo-wrapper">
-                                <span class="brand-text-logo game-nine">9</span>
+                                <img src="{{ asset('assets/images/11.jpg') }}" alt="LEGO"
+                                    class="brand-logo lego-logo">
                             </div>
-                            <p class="brand-name">GAME 9 <span class="arrow">→</span></p>
+                            <p class="brand-name">Targus <span class="arrow">→</span></p>
                         </div>
                     </a>
                 </div>
@@ -279,8 +281,8 @@
                     <a href="#" class="brand-box-link">
                         <div class="brand-box">
                             <div class="brand-logo-wrapper">
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/Old_Spice_logo.svg"
-                                    alt="Old Spice" class="brand-logo oldspice-logo">
+                                <img src="{{ asset('assets/images/12.jpg') }}" alt="LEGO"
+                                    class="brand-logo lego-logo">
                             </div>
                             <p class="brand-name">OLD SPICE <span class="arrow">→</span></p>
                         </div>
@@ -292,19 +294,10 @@
                     <a href="#" class="brand-box-link">
                         <div class="brand-box">
                             <div class="brand-logo-wrapper">
-                                <span class="brand-text-logo">ONYX</span>
+                                <img src="{{ asset('assets/images/10.jpg') }}" alt="LEGO"
+                                    class="brand-logo lego-logo">
                             </div>
-                            <p class="brand-name">ONYX <span class="arrow">→</span></p>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <a href="#" class="brand-box-link">
-                        <div class="brand-box">
-                            <div class="brand-logo-wrapper smirnoff-red">
-                                <span class="brand-text-logo white-text">Smirnoff</span>
-                            </div>
-                            <p class="brand-name">SMIRNOFF <span class="arrow">→</span></p>
+                            <p class="brand-name">Sony <span class="arrow">→</span></p>
                         </div>
                     </a>
                 </div>
@@ -312,8 +305,19 @@
                     <a href="#" class="brand-box-link">
                         <div class="brand-box">
                             <div class="brand-logo-wrapper">
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a6/Logo_NIKE.svg"
-                                    alt="Nike" class="brand-logo nike-logo">
+                                <img src="{{ asset('assets/images/9.jpg') }}" alt="LEGO"
+                                    class="brand-logo lego-logo">
+                            </div>
+                            <p class="brand-name">Nintendo <span class="arrow">→</span></p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <a href="#" class="brand-box-link">
+                        <div class="brand-box">
+                            <div class="brand-logo-wrapper">
+                                <img src="{{ asset('assets/images/8.jpg') }}" alt="LEGO"
+                                    class="brand-logo lego-logo">
                             </div>
                             <p class="brand-name">NIKE <span class="arrow">→</span></p>
                         </div>
@@ -325,8 +329,8 @@
                     <a href="#" class="brand-box-link">
                         <div class="brand-box">
                             <div class="brand-logo-wrapper">
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/e/e8/Under_Armour_Logo.svg"
-                                    alt="Under Armour" class="brand-logo ua-logo">
+                                <img src="{{ asset('assets/images/7.jpg') }}" alt="LEGO"
+                                    class="brand-logo lego-logo">
                             </div>
                             <p class="brand-name">UNDER ARMOUR <span class="arrow">→</span></p>
                         </div>
@@ -336,9 +340,10 @@
                     <a href="#" class="brand-box-link">
                         <div class="brand-box">
                             <div class="brand-logo-wrapper">
-                                <span class="brand-text-logo">hide</span>
+                                <img src="{{ asset('assets/images/6.jpg') }}" alt="LEGO"
+                                    class="brand-logo lego-logo">
                             </div>
-                            <p class="brand-name">ENCOR <span class="arrow">→</span></p>
+                            <p class="brand-name">Uniden <span class="arrow">→</span></p>
                         </div>
                     </a>
                 </div>
@@ -346,7 +351,8 @@
                     <a href="#" class="brand-box-link">
                         <div class="brand-box">
                             <div class="brand-logo-wrapper">
-                                <span class="brand-text-logo">VanHeusen</span>
+                                <img src="{{ asset('assets/images/5.jpg') }}" alt="LEGO"
+                                    class="brand-logo lego-logo">
                             </div>
                             <p class="brand-name">VAN HEUSEN <span class="arrow">→</span></p>
                         </div>
@@ -358,9 +364,8 @@
                     <a href="#" class="brand-box-link">
                         <div class="brand-box">
                             <div class="brand-logo-wrapper">
-                                <div class="volupa-logo">
-                                    <span class="volupa-text green-bg">Volupa</span>
-                                </div>
+                                <img src="{{ asset('assets/images/4.jpg') }}" alt="LEGO"
+                                    class="brand-logo lego-logo">
                             </div>
                             <p class="brand-name">VOLUPA <span class="arrow">→</span></p>
                         </div>
@@ -370,22 +375,21 @@
                     <a href="#" class="brand-box-link">
                         <div class="brand-box">
                             <div class="brand-logo-wrapper">
-                                <span class="brand-text-logo">ETSCO</span>
+                                <img src="{{ asset('assets/images/3.jpg') }}" alt="LEGO"
+                                    class="brand-logo lego-logo">
                             </div>
-                            <p class="brand-name">ETSCO <span class="arrow">→</span></p>
+                            <p class="brand-name">Jetson <span class="arrow">→</span></p>
                         </div>
                     </a>
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <a href="#" class="brand-box-link">
-                        <div class="brand-box pga-box">
-                            <div class="brand-logo-wrapper pga-blue">
-                                <div class="pga-logo">
-                                    <span class="pga-text">PGA</span>
-                                    <span class="tour-text">TOUR</span>
-                                </div>
+                        <div class="brand-box">
+                            <div class="brand-logo-wrapper">
+                                <img src="{{ asset('assets/images/2.jpg') }}" alt="LEGO"
+                                    class="brand-logo lego-logo">
                             </div>
-                            <p class="brand-name white-text">PGA <span class="arrow">→</span></p>
+                            <p class="brand-name">PGA <span class="arrow">→</span></p>
                         </div>
                     </a>
                 </div>

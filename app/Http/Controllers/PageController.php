@@ -36,6 +36,17 @@ class PageController extends Controller
         return view('pages.brands');
     }
 
+    public function products()
+    {
+        return view('pages.products');
+    }
+
+    public function productDetail()
+    {
+        return view('pages.product-detail');
+    }
+
+
     /**
      * Display the contact page.
      *

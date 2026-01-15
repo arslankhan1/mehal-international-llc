@@ -24,6 +24,8 @@ Route::get('/', [PageController::class, 'index'])->name('home');
 // Static pages
 Route::get('/sales-channels', [PageController::class, 'salesChannels'])->name('sales.channels');
 Route::get('/brands', [PageController::class, 'brands'])->name('brands');
+Route::get('/products', [PageController::class, 'products'])->name('products');
+Route::get('/products/1', [PageController::class, 'productDetail'])->name('productDetail');
 // Contact Routes
 Route::get('/contact', [ContactController::class, 'index'])->name('contact');
 Route::post('/contact', [ContactController::class, 'submit'])->name('contact.submit');

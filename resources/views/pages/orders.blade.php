@@ -72,8 +72,11 @@
                     <i class="fas fa-shopping-bag fa-4x text-muted mb-4"></i>
                     <h2>No Orders Yet</h2>
                     <p class="text-muted">You haven't placed any orders yet. Start shopping to see your orders here.</p>
-                    <a href="{{ route('products') }}" class="btn btn-dark mt-3">
+                    {{-- <a href="{{ route('products') }}" class="btn btn-dark mt-3">
                         <i class="fas fa-shopping-bag"></i> Start Shopping
+                    </a> --}}
+                    <a href="{{ route('products') }}" class="btn btn-dark mt-3 fs-3 btn-size">
+                        <i class="fas fa-shopping-bag"></i> Continue Shopping
                     </a>
                 </div>
             @endif
@@ -87,6 +90,11 @@
             max-width: 900px;
             margin: 0 auto;
         }
+
+        .btn-size {
+            padding: 10px 60px;
+        }
+
 
         .order-card {
             background: white;

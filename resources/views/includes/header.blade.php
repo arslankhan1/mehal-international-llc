@@ -144,7 +144,9 @@
                             @if (Auth::user()->role === 'admin')
                                 <li><a class="dropdown-item" href="{{ route('admin.dashboard') }}">
                                         <i class="fas fa-tachometer-alt"></i> Admin Dashboard
-                                    </a></li>
+                                    </a>
+
+                                </li>
                             @endif
                             <li><a class="dropdown-item" href="{{ route('orders.index') }}">
                                     <i class="fas fa-shopping-bag"></i> My Orders

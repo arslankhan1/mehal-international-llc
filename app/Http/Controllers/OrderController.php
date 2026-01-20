@@ -20,7 +20,7 @@ class OrderController extends Controller
             ->orderBy('created_at', 'desc')
             ->paginate(10);
 
-        return view('orders.index', compact('orders'));
+        return view('pages.orders', compact('orders'));
     }
 
     public function show($id)
